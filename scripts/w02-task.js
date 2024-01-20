@@ -6,11 +6,9 @@
 
 let fullName = 'Josué Gotay';
 
-let currentYear = '2024';
+let currentYear = '';
 
 let profilePicture = 'images/Me.jpeg';
-
-
 
 
 
@@ -23,43 +21,36 @@ const foodElement = document.getElementById('food');
 
 const yearElement = document.querySelector('#year');
 
-const imageElment = document.getElementsByTagName('img');
+const imageElement = document.querySelectorAll('img').src;
 
+const imageElement2 = document.querySelectorAll('img').alt = `Profile image of ${fullName}`; /*This second variable of the imageElement is here because my VS does not recognize setAttribute as a method */
 
 
 
 /* Step 4 - Adding Content */
 
-nameElement.innerHTML = `<strong>${fullName}<strong>`;
+nameElement.innerHTML = `<strong>${fullName}</strong>`;
 
-
-yearElement.textContent(currentYear);
-
-imageElment.setAttribute('src', Me);
-
-imageElment.setAttribute('alt', `Profile image of ${fullName}`);
-
-
-
+yearElement.textContent = '2024';
 
 
 /* Step 5 - Array */
 
 const favFoods = ['Pizza','Fried chicken', 'Fish'];
 
-foodElement.innerHTML = `<p>${favFoods}<p>`;
+foodElement.innerHTML = `<li>${favFoods}</li>`;
 
 favFoods.push('Ice cream');
 
-foodElement.innerHTML += `<strong>${favFoods}<strong>`;
+foodElement.innerHTML += `<li>${favFoods}</li>`;
 
 favFoods.shift();
 
-foodElement.innerHTML += `<strong>${favFoods}<strong>`;
+foodElement.innerHTML += `<li>${favFoods}</li>`;
 
 favFoods.pop();
 
-foodElement.innerHTML += `<strong>${favFoods}<strong>`;
+foodElement.innerHTML += `<li>${favFoods}</li>`;
 
 
 
