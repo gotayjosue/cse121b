@@ -89,12 +89,38 @@ function subtotal() {
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */
 
+let array1 = [1,2,3,4,5,6,7,8,9,10,11,12,13];
+document.querySelector('#array').innerHTML = array1;
+
 /* Output Odds Only Array */
 
+const oddNumbers = array1.filter(function(number) {
+    return number % 2 !==0;
+
+})
+
+document.querySelector('#odds').innerHTML = oddNumbers;
+
 /* Output Evens Only Array */
+const evenNumbers = array1.filter(function(number) {
+    return number % 2 ==0;
+
+})
+
+document.querySelector('#evens').innerHTML = evenNumbers;
 
 /* Output Sum of Org. Array */
+function sumArray(total, number) {
+    return total + number;
+}
+document.querySelector('#sumOfArray').innerHTML = array1.reduce(sumArray, 0);
 
 /* Output Multiplied by 2 Array */
-
+function multiplyArray(number) {
+    return number * 2;
+}
+document.querySelector('#multiplied').innerHTML = array1.map(multiplyArray);
 /* Output Sum of Multiplied by 2 Array */
+
+let newArray = array1.map(multiplyArray);
+document.querySelector('#sumOfMultiplied').innerHTML = newArray.reduce(sumArray, 0);
