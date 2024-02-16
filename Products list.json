@@ -1,0 +1,27 @@
+[
+  {
+    "productName": "Fried Chicken",
+    "code": "1",
+    "price": "15"
+  },
+  {
+    "productName": "Baleadas",
+    "code": "2",
+    "price": "20"
+  },
+  {
+    "productName": "Lemonade",
+    "code": "3",
+    "price": "5"
+  },
+  {
+    "productName": "Rise and beans",
+    "code": "4",
+    "price": "10"
+  },
+  {
+    "productName": "Sandwich",
+    "code": "5",
+    "price": "4"
+  }
+]
