@@ -1,0 +1,33 @@
+.programcontent{
+    margin: 0 auto;
+    text-align: center;
+}
+
+ol{
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+/* bill styling*/
+
+.billcontent{
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(163, 163, 163, 0.068);
+    width: 200px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.144);
+    
+}
+
+.billproducts{
+    line-height: 30px;
+    margin-right: 30px;
+}
+
+.billtotal{
+    margin-left: 30px;
+}

@@ -7,25 +7,27 @@
     <link rel="stylesheet" href="styles/project.css">
 </head>
 <body>
-    <h1>Placita Garífuna Billing Program</h1>
-    <label for="code">Product code: </label> 
-    <input type="text" id="code" name="code"> <button id="find">Find</button>
-    <div id="products">
-        <ul id="products-list">
-        </ul> 
-        <button id="add">Add to cart</button>
-    </div>
-    <div>
-        <h3>Cart</h3>
-        <ol id="CartList">
-        </ol>
-    </div>
-    <div class="total">
-        <h2>Total: $<span id="total">0.00</span></h2>
-        <label for="cash"> Cash:</label>
-        <input type="text" id="cash" name="cash"> <button id="change">OK</button>
-        <h3>Change: $<span>0.00</span></h3>
-    </div>
+    <div class="programcontent">
+        <h1>Placita Garífuna Billing Program</h1>
+        <label for="code">Product code: </label> 
+        <input type="text" id="code" name="code"> <button id="find">Find</button>
+        <div id="products">
+            <ul id="products-list"></ul> 
+            <button id="add">Add to cart</button>
+        </div>
+        <div>
+            <h3>Cart</h3>
+            <ol id="cartList">
+            </ol>
+        </div>
+        <div class="total">
+            <h2>Total: $<span id="total">0.00</span></h2>
+            <label for="cash"> Cash:</label>
+            <input type="text" id="cash" name="cash"> <button id="change">OK</button>
+            <h3>Change: $<span id="back">0.00</span></h3>
+        </div>
+        <button id="bill">Generate bill</button>
+    </div>  
     <script src="scripts/project.js"></script>
 </body>
 </html>
