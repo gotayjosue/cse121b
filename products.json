@@ -1,27 +1,187 @@
 [
   {
-    "productName": "Fried Chicken",
+    "productName": "Machuca",
     "code": "1",
+    "price": "350"
+  },
+  {
+    "productName": "Machuca Full",
+    "code": "2",
+    "price": "400"
+  },
+  {
+    "productName": "Camarones en salsa de coco",
+    "code": "3",
+    "price": "180"
+  },
+  {
+    "productName": "Pollo chuco",
+    "code": "4",
+    "price": "150"
+  },
+  {
+    "productName": "Pechuga de pollo a la plancha",
+    "code": "5",
+    "price": "150"
+  },
+  {
+    "productName": "Pescado frito",
+    "code": "6",
+    "price": "250"
+  },
+  {
+    "productName": "Pescado frito rojo",
+    "code": "7",
+    "price": "300"
+  },
+  {
+    "productName": "Chuleta de cerdo",
+    "code": "8",
+    "price": "150"
+  },
+  {
+    "productName": "Pollo guisado",
+    "code": "9",
+    "price": "130"
+  },
+  {
+    "productName": "Tacos",
+    "code": "10",
+    "price": "70"
+  },
+  {
+    "productName": "Baleada con huevo",
+    "code": "11",
+    "price": "30"
+  },
+  {
+    "productName": "Baleada sencilla",
+    "code": "12",
+    "price": "25"
+  },
+  {
+    "productName": "Baleada con jamón y huevo",
+    "code": "13",
+    "price": "35"
+  },
+  {
+    "productName": "Baleada con chorizo",
+    "code": "14",
+    "price": "35"
+  },
+  {
+    "productName": "Baleada con pollo",
+    "code": "15",
+    "price": "35"
+  },
+  {
+    "productName": "Baleada Garífuna",
+    "code": "16",
+    "price": "35"
+  },
+  {
+    "productName": "Tajadas con chorizo olanchano",
+    "code": "17",
+    "price": "100"
+  },
+  {
+    "productName": "Picada de tiburón",
+    "code": "18",
+    "price": "180"
+  },
+  {
+    "productName": "Pastelito sencillo",
+    "code": "19",
     "price": "15"
   },
   {
-    "productName": "Baleadas",
-    "code": "2",
+    "productName": "Pastel preparado",
+    "code": "20",
+    "price": "25"
+  },
+  {
+    "productName": "Jugo",
+    "code": "21",
+    "price": "45"
+  },
+  {
+    "productName": "Sangría",
+    "code": "22",
+    "price": "55"
+  },
+  {
+    "productName": "Bebidas calientes",
+    "code": "23",
+    "price": "30"
+  },
+  {
+    "productName": "Agua en bote",
+    "code": "24",
+    "price": "15"
+  },
+  {
+    "productName": "Pan de coco",
+    "code": "25",
+    "price": "70"
+  },
+  {
+    "productName": "Pan dulce",
+    "code": "26",
+    "price": "60"
+  },
+  {
+    "productName": "Caballitos (4 unidades)",
+    "code": "27",
+    "price": "60"
+  },
+  {
+    "productName": "Tableta de coco",
+    "code": "28",
     "price": "20"
   },
   {
-    "productName": "Lemonade",
-    "code": "3",
-    "price": "5"
+    "productName": "Pan de yuca",
+    "code": "29",
+    "price": "25"
   },
   {
-    "productName": "Rise and beans",
-    "code": "4",
+    "productName": "Pan de banano",
+    "code": "30",
+    "price": "25"
+  },
+  {
+    "productName": "Pan de camote",
+    "code": "31",
+    "price": "25"
+  },
+  {
+    "productName": "Plátano relleno sencillo",
+    "code": "32",
+    "price": "35"
+  },
+  {
+    "productName": "Plátano relleno con huevo",
+    "code": "33",
+    "price": "45"
+  },
+  {
+    "productName": "Orden de arroz",
+    "code": "34",
+    "price": "25"
+  },
+  {
+    "productName": "Orden de tajadas",
+    "code": "35",
+    "price": "25"
+  },
+  {
+    "productName": "Tortilla de harina (Unidad)",
+    "code": "36",
     "price": "10"
   },
   {
-    "productName": "Sandwich",
-    "code": "5",
-    "price": "4"
+    "productName": "Orden de frijoles",
+    "code": "37",
+    "price": "20"
   }
 ]
