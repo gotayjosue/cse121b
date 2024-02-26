@@ -1,47 +1,47 @@
 [
   {
     "productName": "Machuca",
-    "code": "1",
+    "code": "01",
     "price": "350"
   },
   {
     "productName": "Machuca Full",
-    "code": "2",
+    "code": "02",
     "price": "400"
   },
   {
     "productName": "Camarones en salsa de coco",
-    "code": "3",
+    "code": "03",
     "price": "180"
   },
   {
     "productName": "Pollo chuco",
-    "code": "4",
+    "code": "04",
     "price": "150"
   },
   {
     "productName": "Pechuga de pollo a la plancha",
-    "code": "5",
+    "code": "05",
     "price": "150"
   },
   {
     "productName": "Pescado frito",
-    "code": "6",
+    "code": "06",
     "price": "250"
   },
   {
     "productName": "Pescado frito rojo",
-    "code": "7",
+    "code": "07",
     "price": "300"
   },
   {
     "productName": "Chuleta de cerdo",
-    "code": "8",
+    "code": "08",
     "price": "150"
   },
   {
     "productName": "Pollo guisado",
-    "code": "9",
+    "code": "09",
     "price": "130"
   },
   {
