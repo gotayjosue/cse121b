@@ -5,6 +5,7 @@ const add = document.getElementById('add');
 const total = document.getElementById('total');
 const changeInput = document.getElementById('cash');
 const currentDate = new Date().toDateString();
+const time = new Date().toLocaleTimeString();
 
 let productsList = [];
 let cart = [];
@@ -93,6 +94,7 @@ function generateBill() {
         billContent += '<section class="billcontent">';
         billContent += '<h2 class="billtitle">Bill</h2>';
         billContent += `<strong><p class="date">${currentDate}</p></strong>`;
+        billContent += `<strong><p class="date">${time}</p></strong>`;
         billContent += '<div class="themes">';
         billContent += '</div class="themes">';
         billContent += '<ul class="billproducts">';
